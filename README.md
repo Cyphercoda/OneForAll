@@ -1,4 +1,4 @@
-PSRecon - PowerShell Reconnaissance Script
+**PSRecon - PowerShell Reconnaissance Script**
 
 PSRecon is a comprehensive PowerShell-based tool designed for performing reconnaissance and enumeration on Windows systems. It is intended for use by security professionals, system administrators, and penetration testers to gather detailed system information, identify misconfigurations, and check for potential security weaknesses. This tool is particularly useful during the information-gathering phase of an internal penetration test or during system audits.
 Features:
@@ -30,3 +30,9 @@ Prerequisites:
     PowerShell: The script is compatible with PowerShell 2.0 and later, though certain functions may require PowerShell 3.0+ for full functionality.
     Active Directory Module: Some functions (e.g., domain controller enumeration) require the Active Directory module to be installed and imported.
     Administrative Privileges: Certain checks (e.g., SMB, user enumeration) may require administrative access to run properly.
+Installation:
+
+Clone the repository and run the script from an elevated PowerShell prompt:
+    git clone https://github.com/yourusername/PSRecon.git
+    cd PSRecon
+    ./PSRecon.ps1
